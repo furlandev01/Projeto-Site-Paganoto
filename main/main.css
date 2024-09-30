@@ -1,0 +1,91 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Logo */
+  .logo {
+    max-width: 150px;
+    margin-top: 20px;
+  }
+  
+  /* Nome do Colégio */
+  .school-name img {
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
+  /* Menu de navegação */
+  .navbar {
+    margin: 20px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    color: #007BFF;
+  }
+  
+  /* Carrossel */
+  .carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
